@@ -1,0 +1,51 @@
+/* Container for the layout with flex display */
+.layout-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Form section styling */
+.form-section {
+  flex: 1; /* Takes up half of the container's width */
+  padding: 20px;
+  background-color: #f5f5f5; /* Light background color for contrast */
+  border-right: 1px solid #ccc; /* Divider line between form and card */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Card section styling */
+.card-section {
+  flex: 1; /* Takes up the other half of the container's width */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+/* Styling for the card */
+.contact-card {
+  width: 100%; /* Full width of the card section */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Styling for individual contact items */
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.contact-item p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+.buttons {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.buttons svg {
+  margin-right: 8px;
+}
